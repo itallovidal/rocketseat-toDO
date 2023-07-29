@@ -8,6 +8,16 @@
     justify-content: center;
   }
 }
+.wrapper .errorMsg {
+  position: absolute;
+  bottom: -2rem;
+  color: #E25858;
+  font-style: italic;
+  left: 0;
+  opacity: 0;
+  transform: translateX(-10px);
+  animation: showing-error 300ms forwards;
+}
 .wrapper .inputStyle {
   background: #262626;
   padding: 1rem;
@@ -44,6 +54,13 @@
 }
 .wrapper .btnStyle:hover {
   background: #4EA8DE;
+}
+
+@keyframes showing-error {
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 /*# sourceMappingURL=form.module.css.map */

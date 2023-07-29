@@ -9,6 +9,17 @@
     justify-content: center;
   }
 
+  .errorMsg{
+    position: absolute;
+    bottom: -$escala-p * 2;
+    color: $danger;
+    font-style: italic;
+    left: 0;
+    opacity: 0;
+    transform: translateX(-10px);
+    animation: showing-error 300ms forwards;
+  }
+
   .inputStyle{
     background: $neutral-color-5;
     padding: $escala-p;
@@ -49,7 +60,12 @@
       background:   $primary-color-light  ;
     }
   }
+}
 
-
+@keyframes showing-error {
+  100%{
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
