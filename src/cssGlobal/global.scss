@@ -7,3 +7,9 @@ section, form{
   max-width: 50rem;
   margin: 0 auto;
 }
+
+@media (max-width: 600px){
+  :root{
+    font-size: 14px;
+  }
+}

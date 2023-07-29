@@ -3,6 +3,11 @@
   position: relative;
   transform: translateY(-50%);
 }
+@media (max-width: 600px) {
+  .wrapper {
+    justify-content: center;
+  }
+}
 .wrapper .inputStyle {
   background: #262626;
   padding: 1rem;
@@ -11,6 +16,11 @@
   width: 80%;
   color: white;
   font-family: "Inter", sans-serif;
+}
+@media (max-width: 600px) {
+  .wrapper .inputStyle {
+    width: 50%;
+  }
 }
 .wrapper .inputStyle::placeholder {
   opacity: 0.4;
@@ -22,6 +32,12 @@
   color: white;
   margin-left: 1rem;
   flex-grow: 1;
+}
+@media (max-width: 600px) {
+  .wrapper .btnStyle {
+    width: 30%;
+    flex-grow: 0;
+  }
 }
 .wrapper .btnStyle i {
   margin-left: 1rem;

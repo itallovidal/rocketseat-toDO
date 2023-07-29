@@ -5,6 +5,12 @@
   padding-bottom: 1.5rem;
   border-bottom: 1px solid #333333;
 }
+@media (max-width: 600px) {
+  .wrapper {
+    justify-content: center;
+    gap: 1.5rem;
+  }
+}
 .wrapper .completedTasks, .wrapper .totalTasks {
   margin-left: 1rem;
   background: #333333;

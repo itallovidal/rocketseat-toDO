@@ -11,6 +11,19 @@ import './cssGlobal/global.css'
 function App() {
     const [taskList, setTaskList] = React.useState<Array<TaskInterface>>([])
 
+    React.useEffect(()=>{
+        if(localStorage.getItem("taskList")){
+            const savedList = JSON.parse(localStorage.getItem("taskList")!)
+            setTaskList(savedList)
+        }
+    }, [])
+
+    React.useEffect(()=>{
+        if(taskList.length > 0){
+            localStorage.setItem("taskList", JSON.stringify(taskList))
+        }
+    }, [taskList])
+
   return (
     <>
         <Header/>

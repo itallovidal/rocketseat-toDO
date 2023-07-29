@@ -7,6 +7,12 @@
   color: white;
   margin-bottom: 1rem;
 }
+@media (max-width: 600px) {
+  .wrapper {
+    width: 90%;
+    margin: 1rem auto;
+  }
+}
 .wrapper .checkbox {
   width: 20px;
   height: 20px;
@@ -20,6 +26,11 @@
 .wrapper .checkbox:hover {
   transform: scale(1.1);
 }
+@media (max-width: 600px) {
+  .wrapper .checkbox {
+    margin-left: 5px;
+  }
+}
 .wrapper .checked {
   background: #4EA8DE;
   border: 2px solid #262626;
@@ -27,6 +38,11 @@
 .wrapper .task {
   flex-grow: 1;
   transition: 200ms;
+}
+@media (max-width: 600px) {
+  .wrapper .task {
+    margin-left: 20px;
+  }
 }
 .wrapper .taskChecked {
   text-decoration: line-through;
@@ -37,7 +53,7 @@
   transition: 200ms;
   cursor: pointer;
 }
-.wrapper .deleteTask:hover {
+.wrapper .deleteTask:hover, .wrapper .deleteTask:active, .wrapper .deleteTask:focus {
   color: #E25858;
 }
 

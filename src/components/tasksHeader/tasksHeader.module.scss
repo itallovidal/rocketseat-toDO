@@ -7,6 +7,11 @@
   padding-bottom: $escala-m;
   border-bottom: 1px solid $neutral-color-4;
 
+  @media (max-width: 600px){
+    justify-content: center;
+    gap: $escala-m;
+  }
+
   .completedTasks, .totalTasks{
     margin-left: $escala-p;
     background: $neutral-color-4;

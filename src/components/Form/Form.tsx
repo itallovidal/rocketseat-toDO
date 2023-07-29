@@ -20,6 +20,8 @@ function Form({setTaskList}: FormProps) {
                 }]
             })
         }
+
+        setTask('')
     }
 
     function handleChange({target} : ChangeEvent<HTMLInputElement>){

@@ -9,7 +9,8 @@ interface TaskProps{
 }
 function Task({data, setTaskList} : TaskProps) {
     const [isChecked, setIsChecked] = React.useState<boolean>(false)
-    console.log(data)
+
+
 
     function deleteTask(){
         setTaskList((prevTasks)=> {

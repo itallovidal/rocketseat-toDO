@@ -5,6 +5,10 @@
   position: relative;
   transform: translateY(-50%);
 
+  @media (max-width: 600px){
+    justify-content: center;
+  }
+
   .inputStyle{
     background: $neutral-color-5;
     padding: $escala-p;
@@ -13,7 +17,13 @@
     width: 80%;
     color: white;
     font-family: $fonte-1;
+
+    @media (max-width: 600px){
+      width: 50%;
+    }
   }
+
+
   .inputStyle::placeholder{
     opacity: .4;
     font-style: italic;
@@ -25,6 +35,11 @@
     color: white;
     margin-left: $escala-p;
     flex-grow: 1;
+
+    @media (max-width: 600px){
+      width: 30%;
+      flex-grow: 0;
+    }
 
     i{
       margin-left: $escala-p;
