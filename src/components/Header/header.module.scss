@@ -1,0 +1,8 @@
+@use '../../cssGlobal/_variables' as *;
+
+.wrapper{
+  height: 12.5rem;
+  background: $neutral-color-7;
+  display: grid;
+  place-items: center;
+}

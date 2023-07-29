@@ -1,0 +1,33 @@
+.wrapper {
+  display: flex;
+  position: relative;
+  transform: translateY(-50%);
+}
+.wrapper .inputStyle {
+  background: #262626;
+  padding: 1rem;
+  border: none;
+  border-radius: 5px;
+  width: 80%;
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+.wrapper .inputStyle::placeholder {
+  opacity: 0.4;
+  font-style: italic;
+}
+.wrapper .btnStyle {
+  background: #1E6F9F;
+  padding: 1rem;
+  color: white;
+  margin-left: 1rem;
+  flex-grow: 1;
+}
+.wrapper .btnStyle i {
+  margin-left: 1rem;
+}
+.wrapper .btnStyle:hover {
+  background: #4EA8DE;
+}
+
+/*# sourceMappingURL=form.module.css.map */

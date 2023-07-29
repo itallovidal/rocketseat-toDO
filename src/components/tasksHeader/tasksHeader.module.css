@@ -1,0 +1,26 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-block: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #333333;
+}
+.wrapper .completedTasks, .wrapper .totalTasks {
+  margin-left: 1rem;
+  background: #333333;
+  padding: 0.75rem;
+  font-size: 0.75rem;
+  color: white;
+  clip-path: circle();
+}
+.wrapper .titleTotalTasks, .wrapper .titleCompletedTasks {
+  font-size: 0.875rem;
+}
+.wrapper .titleTotalTasks {
+  color: #4EA8DE;
+}
+.wrapper .titleCompletedTasks {
+  color: #8284FA;
+}
+
+/*# sourceMappingURL=tasksHeader.module.css.map */

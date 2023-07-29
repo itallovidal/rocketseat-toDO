@@ -1,0 +1,31 @@
+.wrapper {
+  display: grid;
+  place-items: center;
+  color: white;
+  transform: translateY(-10px);
+}
+.wrapper .iconWrapper {
+  margin-bottom: 1.5rem;
+  height: 16rem;
+}
+.wrapper .title {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.showing {
+  opacity: 0;
+  animation: showing 800ms forwards;
+}
+
+@keyframes showing {
+  50% {
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0.4;
+    transform: translateY(0);
+  }
+}
+
+/*# sourceMappingURL=emptyTasksMessage.module.css.map */

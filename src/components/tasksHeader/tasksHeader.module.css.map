@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["tasksHeader.module.scss","../../cssGlobal/_variables.scss"],"names":[],"mappings":"AAEA;EACE;EACA;EACA,cCES;EDDT,gBCES;EDDT;;AAEA;EACE,aCDO;EDEP,YCWc;EDVd,SCDS;EDET,WCFS;EDGT;EACA;;AAGF;EACE,WCTQ;;ADYV;EACE,OCVkB;;ADapB;EACE,OCXoB","file":"tasksHeader.module.css"}

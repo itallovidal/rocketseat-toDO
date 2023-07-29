@@ -1,0 +1,24 @@
+.showing{
+  opacity: 0;
+  animation: showing 500ms forwards;
+}
+
+@keyframes showing {
+  50%{
+    transform: translateY(0);
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hiding{
+  animation: hiding 500ms forwards;
+}
+
+@keyframes hiding {
+  100%{
+    opacity: 0;
+  }
+}

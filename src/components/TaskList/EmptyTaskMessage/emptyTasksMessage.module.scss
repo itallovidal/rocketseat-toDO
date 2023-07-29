@@ -1,0 +1,33 @@
+@use '../../../cssGlobal/_variables' as *;
+
+.wrapper{
+  display: grid;
+  place-items: center;
+  color: white;
+  transform: translateY(-10px);
+
+  .iconWrapper{
+    margin-bottom: $escala-m;
+    height: $escala-xplus;
+  }
+
+  .title{
+    font-size: $escala-p;
+    margin-bottom: 5px;
+  }
+}
+
+.showing{
+  opacity: 0;
+  animation: showing 800ms forwards;
+}
+
+@keyframes showing {
+  50%{
+    transform: translateY(0);
+  }
+  100%{
+    opacity: .4;
+    transform: translateY(0);
+  }
+}

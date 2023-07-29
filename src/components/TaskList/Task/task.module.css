@@ -1,0 +1,44 @@
+.wrapper {
+  padding: 1rem;
+  background: #262626;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-bottom: 1rem;
+}
+.wrapper .checkbox {
+  width: 20px;
+  height: 20px;
+  margin-inline: calc(10% - 40px);
+  background: transparent;
+  border-radius: 50%;
+  outline: 3px solid #4EA8DE;
+  cursor: pointer;
+  transition: 300ms;
+}
+.wrapper .checkbox:hover {
+  transform: scale(1.1);
+}
+.wrapper .checked {
+  background: #4EA8DE;
+  border: 2px solid #262626;
+}
+.wrapper .task {
+  flex-grow: 1;
+  transition: 200ms;
+}
+.wrapper .taskChecked {
+  text-decoration: line-through;
+  opacity: 0.4;
+}
+.wrapper .deleteTask {
+  width: 10%;
+  transition: 200ms;
+  cursor: pointer;
+}
+.wrapper .deleteTask:hover {
+  color: #E25858;
+}
+
+/*# sourceMappingURL=task.module.css.map */

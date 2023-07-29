@@ -1,0 +1,11 @@
+body {
+  font-family: "Inter", sans-serif;
+  background: #1A1A1A;
+}
+
+section, form {
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=global.css.map */

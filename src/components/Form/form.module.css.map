@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["form.module.scss","../../cssGlobal/_variables.scss"],"names":[],"mappings":"AAEA;EACE;EACA;EACA;;AAEA;EACE,YCec;EDdd;EACA;EACA;EACA;EACA;EACA,aCdM;;ADgBR;EACE;EACA;;AAGF;EACE,YCRiB;EDSjB,SCdO;EDeP;EACA,aChBO;EDiBP;;AAEA;EACE,aCpBK;;ADuBP;EACE,YCpBgB","file":"form.module.css"}

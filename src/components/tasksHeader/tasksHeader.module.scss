@@ -1,0 +1,30 @@
+@use '../../cssGlobal/_variables' as *;
+
+.wrapper{
+  display: flex;
+  justify-content: space-between;
+  margin-block: $escala-g;
+  padding-bottom: $escala-m;
+  border-bottom: 1px solid $neutral-color-4;
+
+  .completedTasks, .totalTasks{
+    margin-left: $escala-p;
+    background: $neutral-color-4;
+    padding: $escala-xpp;
+    font-size: $escala-xpp;
+    color: white;
+    clip-path: circle();
+  }
+
+  .titleTotalTasks, .titleCompletedTasks{
+    font-size: $escala-pp;
+  }
+
+  .titleTotalTasks{
+    color: $primary-color-light;
+  }
+
+  .titleCompletedTasks{
+    color: $secondary-color-light;
+  }
+}
